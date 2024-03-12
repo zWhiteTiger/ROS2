@@ -6,7 +6,7 @@ We chose ROS2 Iron Irwini to use.
 [@zWhiteTiger](https://github.com/zWhiteTiger)
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="350" title="hover text">
+  <img hrf="https://github.com/zWhiteTiger" src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
 </p>
 
 ## Environment Variables
