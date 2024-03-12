@@ -3,13 +3,13 @@ ROS2 - Work Space
 
 We chose ROS2 Iron Irwini to use.
 ## Author
-[@zWhiteTiger](https://github.com/zWhiteTiger)
-<p align="start" class="img">
-  <style>
+<style>
     img {
   border-radius: 50%;
-}
-    </style>
+  }
+</style>
+[@zWhiteTiger](https://github.com/zWhiteTiger)
+<p align="start" class="img">
   <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
 </p>
 
