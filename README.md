@@ -144,7 +144,7 @@ and everything is set up, we are ready to create a package for use.
 5. **go inside** your **project**
    ```cmd
    cd <<Projec-tName>/<Projec-tName>
-   ``
+   ```
 6. Add **Permission** file **+X**
    After obtaining the package,
    proceed to create a **Node** to operate in **ROS2**. Create a Python file named **first_node.py** and change the file permissions to +x.
