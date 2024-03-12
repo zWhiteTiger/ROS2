@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/launch/ce_boot_launch.py
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ament_index/resource_index/package_run_dependencies/ce_robot_bootup
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ament_index/resource_index/parent_prefix_path/ce_robot_bootup
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/environment/path.sh
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/environment/path.dsv
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/local_setup.bash
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/local_setup.sh
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/local_setup.zsh
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/local_setup.dsv
+-- Symlinking: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/package.dsv
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ament_index/resource_index/packages/ce_robot_bootup
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/cmake/ce_robot_bootupConfig.cmake
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/cmake/ce_robot_bootupConfig-version.cmake
+-- Up-to-date symlink: /home/predator/ros2_ws/install/ce_robot_bootup/share/ce_robot_bootup/package.xml

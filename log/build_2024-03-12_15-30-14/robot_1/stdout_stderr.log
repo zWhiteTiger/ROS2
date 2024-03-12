@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/robot_1/robot_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_1/robot_1.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_1/robot_1.egg-info/entry_points.txt
+writing requirements to ../../build/robot_1/robot_1.egg-info/requires.txt
+writing top-level names to ../../build/robot_1/robot_1.egg-info/top_level.txt
+reading manifest file '../../build/robot_1/robot_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_1/robot_1.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot_1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_1/robot_1.egg-info to /home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing add_two_ints_cli script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing add_two_ints_sv script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing first_pub script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing first_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing hw_status script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing second_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+Installing third_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+writing list of installed files to '/home/predator/ros2_ws/build/robot_1/install.log'

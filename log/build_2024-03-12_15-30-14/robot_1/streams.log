@@ -1,0 +1,29 @@
+[0.761s] Invoking command in '/home/predator/ros2_ws/src/robot_1': PYTHONPATH=/home/predator/ros2_ws/build/robot_1/prefix_override:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/build/my_robot:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_1 build --build-base /home/predator/ros2_ws/build/robot_1/build install --record /home/predator/ros2_ws/build/robot_1/install.log --single-version-externally-managed
+[0.967s] running egg_info
+[0.967s] writing ../../build/robot_1/robot_1.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../build/robot_1/robot_1.egg-info/dependency_links.txt
+[0.978s] writing entry points to ../../build/robot_1/robot_1.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../build/robot_1/robot_1.egg-info/requires.txt
+[0.978s] writing top-level names to ../../build/robot_1/robot_1.egg-info/top_level.txt
+[0.981s] reading manifest file '../../build/robot_1/robot_1.egg-info/SOURCES.txt'
+[0.982s] writing manifest file '../../build/robot_1/robot_1.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.983s] running build_py
+[0.985s] running install
+[0.985s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.985s]   warnings.warn(
+[0.986s] running install_lib
+[0.988s] running install_data
+[0.988s] running install_egg_info
+[0.990s] removing '/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot_1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.990s] Copying ../../build/robot_1/robot_1.egg-info to /home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot_1-0.0.0-py3.10.egg-info
+[0.992s] running install_scripts
+[1.014s] Installing add_two_ints_cli script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.015s] Installing add_two_ints_sv script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.016s] Installing first_pub script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.016s] Installing first_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.016s] Installing hw_status script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.017s] Installing second_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.017s] Installing third_sup script to /home/predator/ros2_ws/install/robot_1/lib/robot_1
+[1.018s] writing list of installed files to '/home/predator/ros2_ws/build/robot_1/install.log'
+[1.043s] Invoked command in '/home/predator/ros2_ws/src/robot_1' returned '0': PYTHONPATH=/home/predator/ros2_ws/build/robot_1/prefix_override:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/build/my_robot:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_1 build --build-base /home/predator/ros2_ws/build/robot_1/build install --record /home/predator/ros2_ws/build/robot_1/install.log --single-version-externally-managed

@@ -1,0 +1,2 @@
+source;share/ce_robot_bootup/environment/ament_prefix_path.sh
+source;share/ce_robot_bootup/environment/path.sh

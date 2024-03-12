@@ -1,0 +1,24 @@
+[1.005s] Invoking command in '/home/supakorn/ros2_ws/build/robot_1': PYTHONPATH=/home/supakorn/ros2_ws/build/robot_1/prefix_override:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/robot_1/build --no-deps install_data
+[1.297s] running develop
+[1.297s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.297s]   warnings.warn(
+[1.299s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.299s]   warnings.warn(
+[1.481s] running egg_info
+[1.481s] writing robot_1.egg-info/PKG-INFO
+[1.482s] writing dependency_links to robot_1.egg-info/dependency_links.txt
+[1.482s] writing entry points to robot_1.egg-info/entry_points.txt
+[1.482s] writing requirements to robot_1.egg-info/requires.txt
+[1.483s] writing top-level names to robot_1.egg-info/top_level.txt
+[1.485s] reading manifest file 'robot_1.egg-info/SOURCES.txt'
+[1.485s] writing manifest file 'robot_1.egg-info/SOURCES.txt'
+[1.487s] running build_ext
+[1.487s] Creating /home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot-1.egg-link (link to .)
+[1.488s] Installing first_pub script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.488s] Installing first_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.489s] Installing second_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.489s] Installing third_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.489s] 
+[1.489s] Installed /home/supakorn/ros2_ws/build/robot_1
+[1.489s] running install_data
+[1.516s] Invoked command in '/home/supakorn/ros2_ws/build/robot_1' returned '0': PYTHONPATH=/home/supakorn/ros2_ws/build/robot_1/prefix_override:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/robot_1/build --no-deps install_data

@@ -1,0 +1,22 @@
+[1.275s] Invoking command in '/home/supakorn/ros2_ws/build/my_robot': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/my_robot/build --no-deps install_data
+[1.605s] running develop
+[1.618s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.618s]   warnings.warn(
+[1.624s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.624s]   warnings.warn(
+[1.809s] running egg_info
+[1.809s] writing my_robot.egg-info/PKG-INFO
+[1.810s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[1.810s] writing entry points to my_robot.egg-info/entry_points.txt
+[1.811s] writing requirements to my_robot.egg-info/requires.txt
+[1.811s] writing top-level names to my_robot.egg-info/top_level.txt
+[1.814s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.822s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.823s] running build_ext
+[1.823s] Creating /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[1.824s] Installing cal_rect script to /home/supakorn/ros2_ws/install/my_robot/lib/my_robot
+[1.825s] Installing first_node script to /home/supakorn/ros2_ws/install/my_robot/lib/my_robot
+[1.825s] 
+[1.825s] Installed /home/supakorn/ros2_ws/build/my_robot
+[1.825s] running install_data
+[1.856s] Invoked command in '/home/supakorn/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/my_robot/build --no-deps install_data

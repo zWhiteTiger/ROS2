@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_robot/my_first_node.py -> /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot
+copying my_robot/__init__.py -> /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot/my_first_node.py -> /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+copying /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+byte-compiling /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/my_first_node.py to my_first_node.cpython-310.pyc
+byte-compiling /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/my_robot -> /home/supakorn/ros2_ws/install/my_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/supakorn/ros2_ws/install/my_robot/share/my_robot
+running install_egg_info
+removing '/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_robot/my_robot.egg-info to /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/supakorn/ros2_ws/build/my_robot/install.log'

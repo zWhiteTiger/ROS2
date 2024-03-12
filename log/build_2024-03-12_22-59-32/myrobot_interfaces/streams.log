@@ -1,0 +1,281 @@
+[0.531s] Invoking command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake /home/whitetiger/ros2_ws/src/myrobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/whitetiger/ros2_ws/install/myrobot_interfaces
+[0.772s] -- The C compiler identification is GNU 11.4.0
+[0.942s] -- The CXX compiler identification is GNU 11.4.0
+[0.964s] -- Detecting C compiler ABI info
+[1.135s] -- Detecting C compiler ABI info - done
+[1.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.140s] -- Detecting C compile features
+[1.142s] -- Detecting C compile features - done
+[1.148s] -- Detecting CXX compiler ABI info
+[1.297s] -- Detecting CXX compiler ABI info - done
+[1.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.304s] -- Detecting CXX compile features
+[1.304s] -- Detecting CXX compile features - done
+[1.321s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.608s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.836s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.079s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.864s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[3.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.553s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.558s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[3.587s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.587s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.587s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.587s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.613s] -- Found PythonExtra: .so  
+[3.674s] -- Configuring done
+[3.737s] -- Generating done
+[3.742s] -- Build files have been written to: /home/whitetiger/ros2_ws/build/myrobot_interfaces
+[3.753s] Invoked command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake /home/whitetiger/ros2_ws/src/myrobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/whitetiger/ros2_ws/install/myrobot_interfaces
+[3.755s] Invoking command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake --build /home/whitetiger/ros2_ws/build/myrobot_interfaces -- -j4 -l4
+[3.842s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.852s] [  2%] Built target ament_cmake_python_copy_myrobot_interfaces
+[4.167s] [  2%] Built target myrobot_interfaces__rosidl_generator_type_description
+[4.184s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.212s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.221s] running egg_info
+[4.222s] creating myrobot_interfaces.egg-info
+[4.223s] writing myrobot_interfaces.egg-info/PKG-INFO
+[4.223s] writing dependency_links to myrobot_interfaces.egg-info/dependency_links.txt
+[4.231s] writing top-level names to myrobot_interfaces.egg-info/top_level.txt
+[4.232s] writing manifest file 'myrobot_interfaces.egg-info/SOURCES.txt'
+[4.232s] reading manifest file 'myrobot_interfaces.egg-info/SOURCES.txt'
+[4.232s] writing manifest file 'myrobot_interfaces.egg-info/SOURCES.txt'
+[4.285s] [  6%] Built target ament_cmake_python_build_myrobot_interfaces_egg
+[4.749s] [  6%] Built target myrobot_interfaces__cpp
+[4.824s] [  9%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/msg/detail/h_wstatus__type_support.c.o[0m
+[4.824s] [ 11%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/msg/detail/h_wstatus__functions.c.o[0m
+[4.838s] [ 13%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/msg/detail/h_wstatus__description.c.o[0m
+[4.848s] [ 15%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/srv/detail/cal_rectangle__description.c.o[0m
+[4.886s] [ 18%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/srv/detail/cal_rectangle__functions.c.o[0m
+[4.932s] [ 20%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/myrobot_interfaces/srv/detail/cal_rectangle__type_support.c.o[0m
+[4.984s] [ 22%] [32m[1mLinking C shared library libmyrobot_interfaces__rosidl_generator_c.so[0m
+[5.055s] [ 22%] Built target myrobot_interfaces__rosidl_generator_c
+[5.071s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.078s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.079s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.083s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.608s] [ 34%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myrobot_interfaces/msg/h_wstatus__type_support.cpp.o[0m
+[5.674s] [ 36%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/myrobot_interfaces/msg/h_wstatus__type_support.cpp.o[0m
+[5.783s] [ 38%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myrobot_interfaces/msg/detail/h_wstatus__type_support_c.cpp.o[0m
+[5.787s] [ 40%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/myrobot_interfaces/srv/cal_rectangle__type_support.cpp.o[0m
+[5.904s] [ 43%] [32m[1mLinking CXX shared library libmyrobot_interfaces__rosidl_typesupport_c.so[0m
+[5.943s] [ 45%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myrobot_interfaces/msg/detail/h_wstatus__type_support.c.o[0m
+[6.045s] [ 45%] Built target myrobot_interfaces__rosidl_typesupport_c
+[6.068s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.115s] [ 50%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/myrobot_interfaces/srv/detail/cal_rectangle__type_support.c.o[0m
+[6.324s] [ 52%] [32m[1mLinking C shared library libmyrobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.551s] [ 52%] Built target myrobot_interfaces__rosidl_typesupport_introspection_c
+[6.584s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.831s] [ 56%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/myrobot_interfaces/srv/cal_rectangle__type_support.cpp.o[0m
+[6.908s] [ 59%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/myrobot_interfaces/srv/detail/cal_rectangle__type_support_c.cpp.o[0m
+[6.976s] [ 61%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myrobot_interfaces/msg/detail/dds_fastrtps/h_wstatus__type_support.cpp.o[0m
+[7.621s] [ 63%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myrobot_interfaces/msg/detail/h_wstatus__type_support.cpp.o[0m
+[7.680s] [ 65%] [32m[1mLinking CXX shared library libmyrobot_interfaces__rosidl_typesupport_cpp.so[0m
+[7.764s] [ 68%] [32m[1mLinking CXX shared library libmyrobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.008s] [ 68%] Built target myrobot_interfaces__rosidl_typesupport_cpp
+[8.039s] [ 70%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/myrobot_interfaces/srv/detail/cal_rectangle__type_support.cpp.o[0m
+[8.056s] [ 70%] Built target myrobot_interfaces__rosidl_typesupport_fastrtps_c
+[8.124s] [ 72%] [32mBuilding CXX object CMakeFiles/myrobot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/myrobot_interfaces/srv/detail/dds_fastrtps/cal_rectangle__type_support.cpp.o[0m
+[8.793s] [ 75%] [32m[1mLinking CXX shared library libmyrobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.958s] [ 75%] Built target myrobot_interfaces__rosidl_typesupport_introspection_cpp
+[9.062s] [ 77%] [32m[1mLinking CXX shared library libmyrobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.183s] [ 77%] Built target myrobot_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.224s] [ 77%] Built target myrobot_interfaces
+[9.261s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.857s] [ 79%] Built target myrobot_interfaces__py
+[9.892s] [ 81%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/myrobot_interfaces/srv/_cal_rectangle_s.c.o[0m
+[9.894s] [ 84%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/myrobot_interfaces/msg/_h_wstatus_s.c.o[0m
+[10.066s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/myrobot_interfaces/libmyrobot_interfaces__rosidl_generator_py.so[0m
+[10.142s] [ 86%] Built target myrobot_interfaces__rosidl_generator_py
+[10.178s] [ 88%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.180s] [ 93%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.181s] [ 93%] [32mBuilding C object CMakeFiles/myrobot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.373s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.385s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.419s] [100%] [32m[1mLinking C shared library rosidl_generator_py/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.455s] [100%] Built target myrobot_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.468s] [100%] Built target myrobot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.495s] [100%] Built target myrobot_interfaces__rosidl_typesupport_c__pyext
+[10.517s] Invoked command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake --build /home/whitetiger/ros2_ws/build/myrobot_interfaces -- -j4 -l4
+[10.767s] Invoking command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake --install /home/whitetiger/ros2_ws/build/myrobot_interfaces
+[10.776s] -- Install configuration: ""
+[10.776s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/ament_index/resource_index/rosidl_interfaces/myrobot_interfaces
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/msg/HWstatus.json
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/srv/CalRectangle.json
+[10.779s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.779s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/h_wstatus.h
+[10.779s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__functions.c
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__description.c
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__struct.h
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__functions.h
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__type_support.h
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__type_support.c
+[10.779s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.779s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.780s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.780s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__type_support.c
+[10.780s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__type_support.h
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__functions.h
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__description.c
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__struct.h
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__functions.c
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/cal_rectangle.h
+[10.781s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/library_path.sh
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/library_path.dsv
+[10.781s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_generator_c.so
+[10.781s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_generator_c.so" to ""
+[10.782s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.782s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.782s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.782s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__rosidl_typesupport_fastrtps_c.h
+[10.782s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.782s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.782s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.782s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__rosidl_typesupport_fastrtps_c.h
+[10.783s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.783s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.783s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.783s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.783s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.783s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__rosidl_typesupport_introspection_c.h
+[10.784s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__type_support.c
+[10.784s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.784s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.784s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.785s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__rosidl_typesupport_introspection_c.h
+[10.785s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__type_support.c
+[10.785s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_introspection_c.so
+[10.785s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.785s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_c.so
+[10.785s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_c.so" to ""
+[10.785s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.785s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.786s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.786s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__struct.hpp
+[10.786s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__builder.hpp
+[10.786s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__traits.hpp
+[10.787s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/h_wstatus.hpp
+[10.787s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.787s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.787s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__builder.hpp
+[10.787s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__struct.hpp
+[10.788s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__traits.hpp
+[10.788s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/cal_rectangle.hpp
+[10.788s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.794s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.796s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.796s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/dds_fastrtps
+[10.797s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__rosidl_typesupport_fastrtps_cpp.hpp
+[10.797s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.797s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.797s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.797s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__rosidl_typesupport_fastrtps_cpp.hpp
+[10.797s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/dds_fastrtps
+[10.798s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.798s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.798s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces
+[10.798s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg
+[10.798s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail
+[10.798s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__type_support.cpp
+[10.799s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/msg/detail/h_wstatus__rosidl_typesupport_introspection_cpp.hpp
+[10.799s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv
+[10.799s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail
+[10.799s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__type_support.cpp
+[10.799s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/include/myrobot_interfaces/myrobot_interfaces/srv/detail/cal_rectangle__rosidl_typesupport_introspection_cpp.hpp
+[10.799s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.799s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.799s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_cpp.so
+[10.799s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.800s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/pythonpath.sh
+[10.800s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/pythonpath.dsv
+[10.800s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces-0.0.0-py3.10.egg-info
+[10.800s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.800s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.800s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.809s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.809s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg/_h_wstatus.py
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg/_h_wstatus_s.c
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg/__init__.py
+[10.809s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/__init__.py
+[10.810s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv/_cal_rectangle_s.c
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv/__init__.py
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv/_cal_rectangle.py
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_c.c
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/libmyrobot_interfaces__rosidl_generator_py.so
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.810s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/_myrobot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.860s] Listing '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces'...
+[10.860s] Compiling '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/__init__.py'...
+[10.860s] Listing '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg'...
+[10.860s] Compiling '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg/__init__.py'...
+[10.860s] Compiling '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/msg/_h_wstatus.py'...
+[10.861s] Listing '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv'...
+[10.861s] Compiling '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv/__init__.py'...
+[10.861s] Compiling '/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/srv/_cal_rectangle.py'...
+[10.866s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.867s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.867s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.867s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.868s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.868s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages/myrobot_interfaces/myrobot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.868s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_generator_py.so
+[10.869s] -- Set runtime path of "/home/whitetiger/ros2_ws/install/myrobot_interfaces/lib/libmyrobot_interfaces__rosidl_generator_py.so" to ""
+[10.869s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/msg/HWstatus.idl
+[10.869s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/srv/CalRectangle.idl
+[10.869s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/msg/HWstatus.msg
+[10.869s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/srv/CalRectangle.srv
+[10.869s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/srv/CalRectangle_Request.msg
+[10.869s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/srv/CalRectangle_Response.msg
+[10.870s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/ament_index/resource_index/package_run_dependencies/myrobot_interfaces
+[10.870s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/ament_index/resource_index/parent_prefix_path/myrobot_interfaces
+[10.870s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/ament_prefix_path.sh
+[10.870s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/ament_prefix_path.dsv
+[10.870s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/path.sh
+[10.870s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/environment/path.dsv
+[10.870s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/local_setup.bash
+[10.871s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/local_setup.sh
+[10.871s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/local_setup.zsh
+[10.871s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/local_setup.dsv
+[10.871s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/package.dsv
+[10.871s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/ament_index/resource_index/packages/myrobot_interfaces
+[10.872s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_generator_cExport.cmake
+[10.872s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.872s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.873s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.873s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.873s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.874s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_cExport.cmake
+[10.874s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.874s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_generator_cppExport.cmake
+[10.875s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.875s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.875s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.875s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.875s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_cppExport.cmake
+[10.876s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.876s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_generator_pyExport.cmake
+[10.876s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/export_myrobot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.876s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.876s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.877s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.877s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.877s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.877s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.877s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.878s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfacesConfig.cmake
+[10.878s] -- Installing: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/cmake/myrobot_interfacesConfig-version.cmake
+[10.878s] -- Up-to-date: /home/whitetiger/ros2_ws/install/myrobot_interfaces/share/myrobot_interfaces/package.xml
+[10.883s] Invoked command in '/home/whitetiger/ros2_ws/build/myrobot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/whitetiger/ros2_ws/install/robot_1:/home/whitetiger/ros2_ws/install/my_robot:/opt/ros/iron /usr/bin/cmake --install /home/whitetiger/ros2_ws/build/myrobot_interfaces

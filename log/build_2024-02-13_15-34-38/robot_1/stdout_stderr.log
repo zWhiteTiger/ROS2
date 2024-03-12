@@ -1,0 +1,23 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing robot_1.egg-info/PKG-INFO
+writing dependency_links to robot_1.egg-info/dependency_links.txt
+writing entry points to robot_1.egg-info/entry_points.txt
+writing requirements to robot_1.egg-info/requires.txt
+writing top-level names to robot_1.egg-info/top_level.txt
+reading manifest file 'robot_1.egg-info/SOURCES.txt'
+writing manifest file 'robot_1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot-1.egg-link (link to .)
+Installing add_two_ints_sv = robot_1.add_two_ints_server:mainadd_two_ints_clv script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+Installing first_pub script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+Installing first_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+Installing second_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+Installing third_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+
+Installed /home/supakorn/ros2_ws/build/robot_1
+running install_data

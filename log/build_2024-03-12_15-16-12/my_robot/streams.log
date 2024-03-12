@@ -1,0 +1,24 @@
+[0.614s] Invoking command in '/home/predator/ros2_ws/build/my_robot': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/predator/ros2_ws/build/my_robot/build --no-deps install_data
+[0.830s] running develop
+[0.832s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.832s]   warnings.warn(
+[0.832s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.832s]   warnings.warn(
+[0.971s] running egg_info
+[0.971s] writing my_robot.egg-info/PKG-INFO
+[0.971s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[0.972s] writing entry points to my_robot.egg-info/entry_points.txt
+[0.972s] writing requirements to my_robot.egg-info/requires.txt
+[0.972s] writing top-level names to my_robot.egg-info/top_level.txt
+[0.974s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[0.977s] running build_ext
+[0.977s] Creating /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[0.978s] Installing cal_rect script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[0.978s] Installing cal_rect_c script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[0.978s] Installing first_node script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[0.978s] Installing hw_para script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[0.978s] 
+[0.978s] Installed /home/predator/ros2_ws/build/my_robot
+[0.978s] running install_data
+[1.006s] Invoked command in '/home/predator/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/predator/ros2_ws/build/my_robot/build --no-deps install_data

@@ -1,0 +1,6 @@
+[console_scripts]
+cal_rect = my_robot.CalRect_server:main
+cal_rect_c = my_robot.CalRect_client:main
+first_node = my_robot.my_first_node:main
+hw_para = my_robot.Hwstatus_para_publish:main
+

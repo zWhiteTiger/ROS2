@@ -1,0 +1,6 @@
+msg/HWstatus.idl
+msg/HWstatus.msg
+srv/CalRectangle.idl
+srv/CalRectangle.srv
+srv/CalRectangle_Request.msg
+srv/CalRectangle_Response.msg

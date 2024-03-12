@@ -1,0 +1,21 @@
+[0.791s] Invoking command in '/home/supakorn/ros2_ws/build/my_robot': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/my_robot/build --no-deps install_data
+[1.063s] running develop
+[1.084s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.084s]   warnings.warn(
+[1.086s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.086s]   warnings.warn(
+[1.257s] running egg_info
+[1.257s] writing my_robot.egg-info/PKG-INFO
+[1.258s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[1.258s] writing entry points to my_robot.egg-info/entry_points.txt
+[1.258s] writing requirements to my_robot.egg-info/requires.txt
+[1.259s] writing top-level names to my_robot.egg-info/top_level.txt
+[1.261s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.262s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[1.263s] running build_ext
+[1.263s] Creating /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[1.264s] Installing first_node script to /home/supakorn/ros2_ws/install/my_robot/lib/my_robot
+[1.265s] 
+[1.265s] Installed /home/supakorn/ros2_ws/build/my_robot
+[1.265s] running install_data
+[1.291s] Invoked command in '/home/supakorn/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/my_robot/build --no-deps install_data

@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (-) JobUnselected: {'identifier': 'myrobot_interfaces'}
+[0.000348] (-) JobUnselected: {'identifier': 'robot_1'}
+[0.000367] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.000384] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[0.098938] (-) TimerEvent: {}
+[0.199823] (-) TimerEvent: {}
+[0.301516] (-) TimerEvent: {}
+[0.402733] (-) TimerEvent: {}
+[0.504081] (-) TimerEvent: {}
+[0.605022] (-) TimerEvent: {}
+[0.641437] (my_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/predator/ros2_ws/src/build/my_robot/build', '--no-deps', 'install_data'], 'cwd': '/home/predator/ros2_ws/src/build/my_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'predator', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/predator/ros2_ws/install/myrobot_interfaces/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/predator', 'OLDPWD': '/home/predator/ros2_ws/src/my_robot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '1170', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/predator/ros2_ws/install', 'ROS_DISTRO': 'iron', 'LOGNAME': 'predator', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'predator', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/predator-VM:@/tmp/.ICE-unix/1085,unix/predator-VM:/tmp/.ICE-unix/1085', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9a6221d1_811b_42db_967e_edac453361ff', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.E1K0J2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.210', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/predator/ros2_ws/install/robot_1:/home/predator/ros2_ws/install/myrobot_interfaces:/home/predator/ros2_ws/install/my_robot:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/predator/ros2_ws/src/build/my_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/predator/ros2_ws/src/build/my_robot/prefix_override:/home/predator/ros2_ws/src/install/my_robot/lib/python3.10/site-packages:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/home/predator/ros2_ws/build/my_robot:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/predator/ros2_ws/install/myrobot_interfaces'}, 'shell': False}
+[0.705632] (-) TimerEvent: {}
+[0.806642] (-) TimerEvent: {}
+[0.845852] (my_robot) StdoutLine: {'line': b'running develop\n'}
+[0.846467] (my_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.846675] (my_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.848556] (my_robot) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.848726] (my_robot) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.906955] (-) TimerEvent: {}
+[0.974374] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[0.974607] (my_robot) StdoutLine: {'line': b'writing my_robot.egg-info/PKG-INFO\n'}
+[0.975468] (my_robot) StdoutLine: {'line': b'writing dependency_links to my_robot.egg-info/dependency_links.txt\n'}
+[0.975953] (my_robot) StdoutLine: {'line': b'writing entry points to my_robot.egg-info/entry_points.txt\n'}
+[0.976426] (my_robot) StdoutLine: {'line': b'writing requirements to my_robot.egg-info/requires.txt\n'}
+[0.976517] (my_robot) StdoutLine: {'line': b'writing top-level names to my_robot.egg-info/top_level.txt\n'}
+[0.978580] (my_robot) StdoutLine: {'line': b"reading manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[0.979439] (my_robot) StdoutLine: {'line': b"writing manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[0.980802] (my_robot) StdoutLine: {'line': b'running build_ext\n'}
+[0.981158] (my_robot) StdoutLine: {'line': b'Creating /home/predator/ros2_ws/src/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)\n'}
+[0.982120] (my_robot) StdoutLine: {'line': b'Installing cal_rect script to /home/predator/ros2_ws/src/install/my_robot/lib/my_robot\n'}
+[0.982494] (my_robot) StdoutLine: {'line': b'Installing cal_rect_c script to /home/predator/ros2_ws/src/install/my_robot/lib/my_robot\n'}
+[0.982756] (my_robot) StdoutLine: {'line': b'Installing first_node script to /home/predator/ros2_ws/src/install/my_robot/lib/my_robot\n'}
+[0.983027] (my_robot) StdoutLine: {'line': b'Installing hw_para script to /home/predator/ros2_ws/src/install/my_robot/lib/my_robot\n'}
+[0.983406] (my_robot) StdoutLine: {'line': b'\n'}
+[0.983479] (my_robot) StdoutLine: {'line': b'Installed /home/predator/ros2_ws/src/build/my_robot\n'}
+[0.983636] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[1.007526] (-) TimerEvent: {}
+[1.009152] (my_robot) CommandEnded: {'returncode': 0}
+[1.073054] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[1.073810] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'msg/HWstatus.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/supakorn/ros2_ws/src/myrobot_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_generate_interfaces)
+
+[0m

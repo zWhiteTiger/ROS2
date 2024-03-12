@@ -1,0 +1,30 @@
+[1.064s] Invoking command in '/home/supakorn/ros2_ws/src/my_robot': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/supakorn/ros2_ws/build/my_robot/build install --record /home/supakorn/ros2_ws/build/my_robot/install.log --single-version-externally-managed
+[1.307s] running egg_info
+[1.307s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.320s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.320s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.320s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.321s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.323s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.329s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.329s] running build
+[1.329s] running build_py
+[1.330s] copying my_robot/my_first_node.py -> /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot
+[1.330s] copying my_robot/__init__.py -> /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot
+[1.330s] running install
+[1.331s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.331s]   warnings.warn(
+[1.331s] running install_lib
+[1.334s] copying /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot/my_first_node.py -> /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.334s] copying /home/supakorn/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.336s] byte-compiling /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/my_first_node.py to my_first_node.cpython-310.pyc
+[1.336s] byte-compiling /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[1.337s] running install_data
+[1.338s] copying resource/my_robot -> /home/supakorn/ros2_ws/install/my_robot/share/ament_index/resource_index/packages
+[1.362s] copying package.xml -> /home/supakorn/ros2_ws/install/my_robot/share/my_robot
+[1.362s] running install_egg_info
+[1.365s] removing '/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.365s] Copying ../../build/my_robot/my_robot.egg-info to /home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[1.378s] running install_scripts
+[1.400s] writing list of installed files to '/home/supakorn/ros2_ws/build/my_robot/install.log'
+[1.425s] Invoked command in '/home/supakorn/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/supakorn/ros2_ws/build/my_robot/prefix_override:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/supakorn/ros2_ws/build/my_robot/build install --record /home/supakorn/ros2_ws/build/my_robot/install.log --single-version-externally-managed

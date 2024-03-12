@@ -1,0 +1,47 @@
+[0.754s] Invoking command in '/home/predator/ros2_ws/build/my_robot': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/predator/ros2_ws/build/my_robot/build
+[0.999s] running develop
+[1.002s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.002s]   warnings.warn(
+[1.002s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.002s]   warnings.warn(
+[1.135s] Removing /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my-robot.egg-link (link to .)
+[1.168s] Invoked command in '/home/predator/ros2_ws/build/my_robot' returned '0': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/predator/ros2_ws/build/my_robot/build
+[1.170s] Invoking command in '/home/predator/ros2_ws/src/my_robot': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/predator/ros2_ws/build/my_robot/build install --record /home/predator/ros2_ws/build/my_robot/install.log --single-version-externally-managed
+[1.390s] running egg_info
+[1.391s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.392s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.392s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.393s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.393s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.395s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.396s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.396s] running build_py
+[1.396s] copying my_robot/CalRect_client.py -> /home/predator/ros2_ws/build/my_robot/build/lib/my_robot
+[1.397s] copying my_robot/HwStatus_para_publish.py -> /home/predator/ros2_ws/build/my_robot/build/lib/my_robot
+[1.397s] running install
+[1.397s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.397s]   warnings.warn(
+[1.397s] running install_lib
+[1.398s] creating /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.398s] copying /home/predator/ros2_ws/build/my_robot/build/lib/my_robot/CalRect_server.py -> /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.399s] copying /home/predator/ros2_ws/build/my_robot/build/lib/my_robot/CalRect_client.py -> /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.400s] copying /home/predator/ros2_ws/build/my_robot/build/lib/my_robot/my_first_node.py -> /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.400s] copying /home/predator/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.400s] copying /home/predator/ros2_ws/build/my_robot/build/lib/my_robot/HwStatus_para_publish.py -> /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.401s] byte-compiling /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/CalRect_server.py to CalRect_server.cpython-310.pyc
+[1.401s] byte-compiling /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/CalRect_client.py to CalRect_client.cpython-310.pyc
+[1.402s] byte-compiling /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/my_first_node.py to my_first_node.cpython-310.pyc
+[1.403s] byte-compiling /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[1.403s] byte-compiling /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot/HwStatus_para_publish.py to HwStatus_para_publish.cpython-310.pyc
+[1.403s] running install_data
+[1.403s] copying package.xml -> /home/predator/ros2_ws/install/my_robot/share/my_robot
+[1.403s] running install_egg_info
+[1.407s] Copying ../../build/my_robot/my_robot.egg-info to /home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[1.408s] running install_scripts
+[1.431s] Installing cal_rect script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[1.432s] Installing cal_rect_c script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[1.432s] Installing first_node script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[1.432s] Installing hw_para script to /home/predator/ros2_ws/install/my_robot/lib/my_robot
+[1.432s] writing list of installed files to '/home/predator/ros2_ws/build/my_robot/install.log'
+[1.680s] Invoked command in '/home/predator/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/predator/ros2_ws/build/my_robot/prefix_override:/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/predator/ros2_ws/build/my_robot/build install --record /home/predator/ros2_ws/build/my_robot/install.log --single-version-externally-managed

@@ -1,0 +1,28 @@
+[1.193s] Invoking command in '/home/supakorn/ros2_ws/build/robot_1': PYTHONPATH=/home/supakorn/ros2_ws/build/robot_1/prefix_override:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/supakorn/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/home/supakorn/ros2_ws/build/robot_1:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/robot_1/build --no-deps install_data
+[1.472s] running develop
+[1.482s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.482s]   warnings.warn(
+[1.495s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.495s]   warnings.warn(
+[1.683s] running egg_info
+[1.684s] writing robot_1.egg-info/PKG-INFO
+[1.684s] writing dependency_links to robot_1.egg-info/dependency_links.txt
+[1.684s] writing entry points to robot_1.egg-info/entry_points.txt
+[1.685s] writing requirements to robot_1.egg-info/requires.txt
+[1.685s] writing top-level names to robot_1.egg-info/top_level.txt
+[1.687s] reading manifest file 'robot_1.egg-info/SOURCES.txt'
+[1.689s] writing manifest file 'robot_1.egg-info/SOURCES.txt'
+[1.691s] running build_ext
+[1.691s] Creating /home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages/robot-1.egg-link (link to .)
+[1.692s] Installing add_two_ints_cli script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.692s] Installing add_two_ints_sv script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] Installing first_pub script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] Installing first_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] Installing hw_status script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] Installing second_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] Installing third_sup script to /home/supakorn/ros2_ws/install/robot_1/lib/robot_1
+[1.693s] 
+[1.694s] Installed /home/supakorn/ros2_ws/build/robot_1
+[1.697s] running install_data
+[1.697s] copying package.xml -> /home/supakorn/ros2_ws/install/robot_1/share/robot_1
+[1.727s] Invoked command in '/home/supakorn/ros2_ws/build/robot_1' returned '0': PYTHONPATH=/home/supakorn/ros2_ws/build/robot_1/prefix_override:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/supakorn/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/home/supakorn/ros2_ws/build/robot_1:/home/supakorn/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/supakorn/ros2_ws/install/my_robot/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/supakorn/ros2_ws/build/robot_1/build --no-deps install_data

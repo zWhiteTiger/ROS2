@@ -1,0 +1,36 @@
+[1.231s] Invoking command in '/home/whitetiger/ros2_ws/src/my_robot': PYTHONPATH=/home/whitetiger/ros2_ws/build/my_robot/prefix_override:/home/whitetiger/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/whitetiger/ros2_ws/build/my_robot/build install --record /home/whitetiger/ros2_ws/build/my_robot/install.log --single-version-externally-managed
+[1.572s] running egg_info
+[1.573s] creating ../../build/my_robot/my_robot.egg-info
+[1.573s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.574s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.574s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.575s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.575s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.575s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.577s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.578s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.578s] running build
+[1.578s] running build_py
+[1.578s] creating /home/whitetiger/ros2_ws/build/my_robot/build
+[1.578s] creating /home/whitetiger/ros2_ws/build/my_robot/build/lib
+[1.578s] creating /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.578s] copying my_robot/CalRect_server.py -> /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.579s] copying my_robot/CalRect_client.py -> /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.580s] copying my_robot/__init__.py -> /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.580s] copying my_robot/HwStatus_para_publish.py -> /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.580s] copying my_robot/my_first_node.py -> /home/whitetiger/ros2_ws/build/my_robot/build/lib/my_robot
+[1.580s] running install
+[1.582s] running install_lib
+[1.582s] running install_data
+[1.583s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.583s]   warnings.warn(
+[1.583s] running install_egg_info
+[1.585s] removing '/home/whitetiger/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.587s] Copying ../../build/my_robot/my_robot.egg-info to /home/whitetiger/ros2_ws/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[1.589s] running install_scripts
+[1.614s] Installing cal_rect script to /home/whitetiger/ros2_ws/install/my_robot/lib/my_robot
+[1.615s] Installing cal_rect_c script to /home/whitetiger/ros2_ws/install/my_robot/lib/my_robot
+[1.616s] Installing first_node script to /home/whitetiger/ros2_ws/install/my_robot/lib/my_robot
+[1.617s] Installing hw_para script to /home/whitetiger/ros2_ws/install/my_robot/lib/my_robot
+[1.617s] writing list of installed files to '/home/whitetiger/ros2_ws/build/my_robot/install.log'
+[1.670s] Invoked command in '/home/whitetiger/ros2_ws/src/my_robot' returned '0': PYTHONPATH=/home/whitetiger/ros2_ws/build/my_robot/prefix_override:/home/whitetiger/ros2_ws/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/whitetiger/ros2_ws/build/my_robot/build install --record /home/whitetiger/ros2_ws/build/my_robot/install.log --single-version-externally-managed

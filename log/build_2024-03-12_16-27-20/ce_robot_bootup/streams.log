@@ -1,0 +1,31 @@
+[0.058s] Invoking command in '/home/predator/ros2_ws/build/ce_robot_bootup': AMENT_PREFIX_PATH=/home/predator/ros2_ws/install/my_robot:/home/predator/ros2_ws/install/robot_1:/home/predator/ros2_ws/install/myrobot_interfaces:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/predator/ros2_ws/install/robot_1:/home/predator/ros2_ws/install/my_robot:/opt/ros/iron PYTHONPATH=/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/predator/ros2_ws/src/ce_robot_bootup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/predator/ros2_ws/install/ce_robot_bootup
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.298s] -- The CXX compiler identification is GNU 11.4.0
+[0.312s] -- Detecting C compiler ABI info
+[0.401s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.407s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.413s] -- Detecting CXX compiler ABI info
+[0.508s] -- Detecting CXX compiler ABI info - done
+[0.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.514s] -- Detecting CXX compile features
+[0.514s] -- Detecting CXX compile features - done
+[0.528s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.695s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.772s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.814s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/symlink_install/install.cmake:43 (_install):
+[0.814s]   _install does not recognize sub-command DIIRECTORY
+[0.814s] Call Stack (most recent call first):
+[0.814s]   CMakeLists.txt:14 (install)
+[0.814s] 
+[0.814s] [0m
+[0.817s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.905s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.905s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.906s] -- Added test 'lint_cmake' to check CMake code style
+[0.907s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.909s] -- Added test 'xmllint' to check XML markup files
+[0.912s] -- Configuring incomplete, errors occurred!
+[0.912s] See also "/home/predator/ros2_ws/build/ce_robot_bootup/CMakeFiles/CMakeOutput.log".
+[0.917s] Invoked command in '/home/predator/ros2_ws/build/ce_robot_bootup' returned '1': AMENT_PREFIX_PATH=/home/predator/ros2_ws/install/my_robot:/home/predator/ros2_ws/install/robot_1:/home/predator/ros2_ws/install/myrobot_interfaces:/opt/ros/iron CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/predator/ros2_ws/install/robot_1:/home/predator/ros2_ws/install/my_robot:/opt/ros/iron PYTHONPATH=/home/predator/ros2_ws/install/my_robot/lib/python3.10/site-packages:/home/predator/ros2_ws/install/robot_1/lib/python3.10/site-packages:/home/predator/ros2_ws/install/myrobot_interfaces/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /home/predator/ros2_ws/src/ce_robot_bootup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/predator/ros2_ws/install/ce_robot_bootup

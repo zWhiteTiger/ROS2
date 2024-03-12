@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+my_robot/CalRect_client.py
+my_robot/CalRect_server.py
+my_robot/HwStatus_para_publish.py
+my_robot/__init__.py
+my_robot/my_first_node.py
+my_robot.egg-info/PKG-INFO
+my_robot.egg-info/SOURCES.txt
+my_robot.egg-info/dependency_links.txt
+my_robot.egg-info/entry_points.txt
+my_robot.egg-info/requires.txt
+my_robot.egg-info/top_level.txt
+my_robot.egg-info/zip-safe
+resource/my_robot
