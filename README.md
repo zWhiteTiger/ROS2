@@ -16,3 +16,19 @@ Check Version
 python3 --version
 ```
 ### Add path Python to Environments
+Find the Python installation path
+```cmd
+which python3
+```
+Edit shell profile config
+```cmd
+nano ~/.bashrc
+```
+Add Python to PATH
+```cmd
+export PATH="/usr/bin/python3:$PATH"
+```
+Apply the Changes
+```cmd
+source ~/.bashrc    # For Bash
+```
