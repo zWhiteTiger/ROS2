@@ -152,7 +152,7 @@ and everything is set up, we are ready to create a package for use.
    touch first_node.py
    chmod +x first_node.py
    ```
-7. After that, write the Python code. Once completed, test the file using the following command:
+7. **After that**, **write** the Python code. Once completed, **test the file** using the following command:
    ```cmd
    ./first_node.py
    ```
