@@ -20,3 +20,14 @@ We chose ROS2 Iron Irwini to use.
    
    locale  # verify setting
    ```
+
+2. Install repository in Ubuntu
+   ```cmd
+   sudo apt install software-properties-common
+   sudo add-apt-repository universe
+   ```
+3. Install Key for ROS
+   ```cmd
+   sudo apt update && sudo apt install curl -y
+   sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+```cmd
