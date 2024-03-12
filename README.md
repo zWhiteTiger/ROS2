@@ -9,6 +9,8 @@ We chose ROS2 Iron Irwini to use.
  - Linux Ubuntu 22.04.3 LTS (Jammy Jellyfish)
 
 ## Installations
+Follow **command line** below message to install **ROS2**
+### ROS2 Installation
 1. Locale **Ubuntu**
    ```cmd
    locale  # check for UTF-8
@@ -47,4 +49,35 @@ We chose ROS2 Iron Irwini to use.
 7. Install **ROS2 Iron base**
    ```cmd
    sudo apt install ros-iron-ros-base
+   ```
+
+### Installations - Python
+Follow **command line** below message to install **Python**
+
+1. **Update & Upgrade** Ubuntu
+   ```cmd
+   sudo apt update
+   sudo apt upgrade
+   ```
+2. Install Python
+   ```cmd
+   sudo apt install python3
+   ```
+
+### Install Colcon
+we need to Build package ROS2 by Colcon
+
+1. Check ROS2 is already installed?
+   ```cmd
+   source /opt/ros/iron/setup.bash
+   ros2
+   ```
+2. **Update & Upgrade** Ubuntu
+   ```cmd
+   sudo apt update
+   sudo apt upgrade
+   ```
+3. Install Colcon
+   ```cmd
+   sudo apt install python3-colcon-common-extensions
    ```
