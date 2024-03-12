@@ -5,9 +5,8 @@ We chose ROS2 Iron Irwini to use.
 ## Author
 [@zWhiteTiger](https://github.com/zWhiteTiger)
 
-<p align="center">
-  <img href="https://github.com/zWhiteTiger" src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
-  <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank"></a> 
+<p align="center" href="https://github.com/zWhiteTiger">
+  <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
 </p>
 
 ## Environment Variables
