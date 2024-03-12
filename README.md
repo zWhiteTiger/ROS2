@@ -67,7 +67,7 @@ Follow **command line** below message to install **Python**
 ### Install Colcon
 we need to Build package ROS2 by Colcon
 
-1. Check ROS2 is already installed?
+1. Check **ROS2** is already **installed?**
    ```cmd
    source /opt/ros/iron/setup.bash
    ros2
@@ -77,7 +77,114 @@ we need to Build package ROS2 by Colcon
    sudo apt update
    sudo apt upgrade
    ```
-3. Install Colcon
+3. Install **Colcon**
    ```cmd
    sudo apt install python3-colcon-common-extensions
    ```
+4. Test Colcon
+   Access to Colcon path you will find **colcon-argcomplete.bash**
+   ```cmd
+   cd /usr/share/colcon_argcomplete/hook/
+   ```
+5. Config **./bashrc** Insert this line at the end of the file.
+   - source /opt/ros/iron/setup.bash
+   - source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+   - source ~/ros2_ws/install/setup.bash
+     ```cmd
+     gedit ~/.bashrc
+     ```
+
+ ## TextEditor Tools
+ TextEditor we chose **Visual Studio** Code
+   ```cmd
+   sudo apt update
+   sudo apt install snapd
+   sudo snap install code --classic
+   ```
+Run **Programs** with command
+   ```cmd
+   code .
+   ```
+Install Python **Pip** to **Build Package**
+   ```code
+   sudo apt install python3-pip
+   ```
+
+## Create FirstPackage
+When we have installed ROS2 and various tools, 
+
+and everything is set up, we are ready to create a package for use.
+1. **Create Path** Directory by command **mkdir**
+   ```cmd
+   mkdir ros2_ws
+   ```
+2. Build ros2_ws
+   ```cmd
+   colcon build
+   ```
+3. Create **src** in to **ros2_ws**
+   go to **ros2_ws**
+   ```cmd
+   cd ros2_ws
+   ```
+   create **src**
+   ```cmd
+   mkdri src
+   ```
+4. **Create First Package**
+   go inside **/src**
+   ```cmd
+   cd src
+   ```
+   **create package**
+   ```cmd
+   ros2 pkg create <Project-Name> --build-type ament_python --dependencies rclpy
+   ```
+   <Projec-tName> is your project name
+5. **go inside** your **project**
+   ```cmd
+   cd <<Projec-tName>/<Projec-tName>
+   ``
+6. Add **Permission** file **+X**
+   After obtaining the package,
+   proceed to create a **Node** to operate in **ROS2**. Create a Python file named **first_node.py** and change the file permissions to +x.
+   ```cmd
+   touch first_node.py
+   chmod +x first_node.py
+   ```
+7. After that, write the Python code. Once completed, test the file using the following command:
+   ```cmd
+   ./first_node.py
+   ```
+8. Edit package.xml
+   To edit the **package.xml** file by adding a library section and modify the setup.py file by adding code inside **bucket** 'console_scripts':[]
+   ```xml
+   "<Name> = <Project-Name>.first_node:main",
+   ```
+   Example:
+   ```xml
+   ntry_points={
+        'console_scripts': [
+            "hw_status = ce_robot.HardwareStatus_publish:main",
+            "cal_rect = ce_robot.CalRect_server:main",
+            "calrect_client = ce_robot.CalRect_client:main",
+        ],
+    },
+   ```
+9. Build Package
+   The build process should be performed in the **ros2_ws** directory.
+   ```cmd
+   cd ~/ros2_ws
+   ```
+   Next step:
+   ```cmd
+   colcon build
+   ```
+10. Run **Terminal**
+    ```cmd
+    source ~/.bashrc
+    ```
+    Run your **Node**
+    ```cmd
+    ros2 run ce_robot first_node
+    ```
