@@ -1,6 +1,6 @@
 # ROS2 - Work Space
 ## About of Project
-Author: Nattawut Sarika CAE6441
+@zWhiteTiger
 
 ## Installation
 Update apt
@@ -32,3 +32,10 @@ Apply the Changes
 ```cmd
 source ~/.bashrc    # For Bash
 ```
+
+## Install Library
+Library: Colcon
+```cmd
+sudo apt install python3-colcon-common-extensions
+```
+Library: ROS2
