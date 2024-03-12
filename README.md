@@ -8,12 +8,6 @@ We chose ROS2 Iron Irwini to use.
   <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
 </p>
 
-[<p align="start" class="img">
-  <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="100" title="zWhiteTiger">
-</p>](https://github.com/zWhiteTiger)
-
-
-
 ## Environment Variables
  - Linux Ubuntu 22.04.3 LTS (Jammy Jellyfish)
 
