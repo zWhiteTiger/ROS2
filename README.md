@@ -5,6 +5,10 @@ We chose ROS2 Iron Irwini to use.
 ## Author
 [@zWhiteTiger](https://github.com/zWhiteTiger)
 
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/157341421?v=4" width="350" title="hover text">
+</p>
+
 ## Environment Variables
  - Linux Ubuntu 22.04.3 LTS (Jammy Jellyfish)
 
