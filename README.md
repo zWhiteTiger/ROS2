@@ -150,13 +150,16 @@ and everything is set up, we are ready to create a package for use.
    proceed to create a **Node** to operate in **ROS2**. Create a Python file named **first_node.py** and change the file permissions to +x.
    ```cmd
    touch first_node.py
+   ```
+   change the file permissions to **+x**.
+   ```cmd
    chmod +x first_node.py
    ```
-7. **After that**, **write** the Python code. Once completed, **test the file** using the following command:
+8. **After that**, **write** the Python code. Once completed, **test the file** using the following command:
    ```cmd
    ./first_node.py
    ```
-8. Edit package.xml
+9. Edit package.xml
    To edit the **package.xml** file by adding a library section and modify the setup.py file by adding code inside **bucket** 'console_scripts':[]
    ```xml
    "<Name> = <Project-Name>.first_node:main",
@@ -171,7 +174,7 @@ and everything is set up, we are ready to create a package for use.
         ],
     },
    ```
-9. Build Package
+10. Build Package
    The build process should be performed in the **ros2_ws** directory.
    ```cmd
    cd ~/ros2_ws
@@ -180,7 +183,7 @@ and everything is set up, we are ready to create a package for use.
    ```cmd
    colcon build
    ```
-10. Run **Terminal**
+11. Run **Terminal**
     ```cmd
     source ~/.bashrc
     ```
