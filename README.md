@@ -140,10 +140,10 @@ and everything is set up, we are ready to create a package for use.
    ```cmd
    ros2 pkg create <Project-Name> --build-type ament_python --dependencies rclpy
    ```
-   <Projec-tName> is your project name
+   << Projec-tName >> is your project name
 5. **go inside** your **project**
    ```cmd
-   cd <<Projec-tName>/<Projec-tName>
+   cd <Projec-tName>/<Projec-tName>
    ```
 6. Add **Permission** file **+X**
    After obtaining the package,
